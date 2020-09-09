@@ -1,0 +1,12 @@
+.header {
+
+    &__item {
+        display: flex;
+        align-items: center;
+
+        &--img {
+            height: 50px;
+            width: 50px;
+        }
+    }
+}

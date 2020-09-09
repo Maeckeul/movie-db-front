@@ -1,0 +1,11 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: $navbar-width;
+    padding: 1em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

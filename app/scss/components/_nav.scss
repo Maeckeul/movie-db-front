@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+        margin: 0.5em;
+
+        .fa {
+            margin-right: 0.5em;
+        }
+    }
+}
