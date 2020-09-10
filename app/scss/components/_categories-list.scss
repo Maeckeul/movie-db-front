@@ -1,0 +1,39 @@
+.main__categories--title {
+    margin-top: 3em;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    margin-right: 1em;
+
+    svg {
+        margin-right: 0.5em;
+    }
+}
+
+.main__categories {
+    display: flex;
+    margin-top: 3em;
+    overflow: hidden;
+    margin-right: 2em;
+
+    &--list {
+        display: flex;
+        width:100%;
+        margin-left: 1.5em;
+
+        .main__categories--item {
+
+            .category__title {
+                text-align: center;
+                font-size: 2em;
+                font-weight: bold;
+            }
+
+            .category__poster {
+                height: 20em;
+                width: 15em;
+                margin: 1em 1em;
+            }
+        }
+    }
+}
