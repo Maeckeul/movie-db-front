@@ -1,0 +1,42 @@
+.main {
+
+    &__title {
+        font-size: 5em;
+        font-family: $font-family-title;
+    }
+
+    &__content {
+        margin-top: 3em;
+    }
+
+    &__films--title {
+        margin-top: 3em;
+        font-size: 1.5em;
+    }
+
+    &__films {
+        display: flex;
+        margin-top: 2em;
+        margin-left: 15%;
+
+        &--list {
+            display: flex;
+
+            .main__films--item {
+                margin-left: 2em;
+
+                .film__title {
+                    text-align: center;
+                    font-size: 2em;
+                    font-weight: bold;
+                }
+
+                .film__poster {
+                    height: 20em;
+                    width: 15em;
+                    margin: 1em 1em;
+                }
+            }
+        }
+    }
+}

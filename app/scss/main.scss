@@ -12,12 +12,14 @@
 
 @import
     'layout/header',
-    'layout/section';
+    'layout/section',
+    'layout/main';
 
 @import
     'components/logo-header',
     'components/nav',
-    'components/search';
+    'components/search',
+    'components/homepage';
 
 @import
     'shame';
