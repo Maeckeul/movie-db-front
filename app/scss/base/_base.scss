@@ -4,10 +4,14 @@
   
   body {
     color: $color-text;
-    background-color: $color-bg;
   }
 
   a {
     color: $color-text;
     text-decoration: none;
+  }
+
+  a:hover {
+    color: $red;
+    text-decoration-line: none;
   }

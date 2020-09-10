@@ -1,0 +1,15 @@
+.section {
+    
+    .form-inline {
+
+        .btn {
+            border-color: $red;
+            color: $red;
+        }
+
+        .btn:hover{
+            background-color: $red;
+            color: $black;
+        }
+    }
+}

@@ -1,6 +1,6 @@
 $black: black;
 $white: white;
-$yellow: yellow;
+$red: #EC2C3E;
 
 $color-text: $white;
 $color-bg: $black;
@@ -9,8 +9,10 @@ $font-size: 16px;
 $font-size-medium: 18px;
 $font-size-large: 20px;
 
-$font-family: 'Montserrat', sans-serif;
+$font-family-text: 'Montserrat', sans-serif;
+$font-family-title: 'Grandstander', cursive;
 $font-family-fallback: 'Helvetica, Arial, sans-serif';
+
 
 $navbar-width: 20%;
 
